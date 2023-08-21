@@ -1,5 +1,5 @@
 ---
 title: "Project #2: Continuous Language"
-parent: "Course Projects"
+parent: "Projects"
 layout: default
 ---

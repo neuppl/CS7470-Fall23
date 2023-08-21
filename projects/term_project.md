@@ -1,5 +1,5 @@
 ---
 title: "Term Project"
-parent: "Course Projects"
+parent: "Projects"
 layout: default
 ---

@@ -27,16 +27,33 @@ involving implementing a probabilistic programming language, and a self-directed
 term project that aims to deeply explore some of the core ideas of probabilistic
 programming.
 
-### Evaluation
+### Evaluation & graded material
 
-The course grade will be determined by the following evaluation metrics:
+The course grade will be determined by the following graded material:
 
-* 30% minor projects (15% each)
-* 10% problem sets
-* 60% final course project
+* 40% minor projects (20% each). The two minor projects are [implementing a discrete PPL](/projects/discrete_language/) 
+  and [implementing a continuous language](/projects/continuous_language/). 
+* 60% [final course project](/projects/term_project/)
 
 All graded material is turned in on <a href="https://canvas.northeastern.edu/">Canvas</a>.
 
 # Schedule
+
+<table>
+<thead>
+    <tr>
+        <th style="width:5%">#</th><th style="width:5%">Date</th><th style="width: 100%">Topic</th>
+    </tr>
+</thead>
+<tr>
+    <td>Fri Sept 8</td>
+    <td>Introduction & Overview</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Tues Sept 12</td>
+    <td></td>
+</tr>
+</table>
 
 <!-- <iframe style = "width: 100%; height: 800px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6gFuy0-U7RyA3s7Gpgb4tx7ZvyxagMezyrlUYf4NbJpd4Wg2Swp2TIrH4qEt6eT-wPp7v40MJjPTJ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> -->
