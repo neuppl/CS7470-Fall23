@@ -31,12 +31,13 @@ the instructor.
 * A `.zip` file containing your project. We should be able to unzip this file and run `dune build` in order to build.
 * A `.pdf` file containing your solutions to the modeling exercises. 
 
+**Questions**: Please e-mail any questions about build setup or the assignment itself to Minsung at `minsung AT ccs.neu.edu`.
 # Syntax
 
 The `disc` language is a simple PPL that consists purely of Boolean random 
 values.
 The syntax is given as two inductively defined terms: expressions `e` 
-and programs `p`. A program is simply a designated start expression. 
+and programs `p`. A program is simply a designated start expression with no free variables. 
 It has the following syntax:
 
 ```
@@ -47,7 +48,7 @@ e ::=
    | if e then e else e
    | return e
    | true | false
-   | e && e | e && e | ! e |
+   | e && e | e || e | ! e |
    | ( e )
 
 p ::= e
@@ -123,6 +124,7 @@ by enumeration, and (2) knowledge compilation based inference.
 For this section we will be implementing exact inference via exhaustive enumeration. We will 
 be filling in the `lib/enumerate.ml` file. Your solution should implement the `infer` function 
 in this file.
+
 Enumeration can be described as a big-step relation $e \Downarrow (\alpha, \beta)$ where $\alpha$ 
 is the unnormalized true probability and $\beta$ is the unnormalized false probability.
 The adequacy requirement that this relation should satisfy is, if $e \Downarrow (\alpha, \beta)$, then:
@@ -150,12 +152,13 @@ $$
 {\texttt{observe}~T; e_2 \Downarrow (\alpha, \beta)}
 $$
 
+Hint: What kinds of expressions should go in the `observe` statements? In the bindings? What is the semantics of `observe (flip 0.5)`?
 
 ## Knowledge compilation
-For this section we will be implementing exact inference via knowledge compilatio;n. We will 
+For this section we will be implementing exact inference via knowledge compilation. We will 
 be filling in the `lib/kc.ml` file. Your solution should implement the `infer` function 
 in this file.
-Enumeration can be described as a big-step relation $e \Downarrow (\varphi, \gamma, w)$ where $\varphi$ 
+Knowledge compilation can be described as a big-step relation $e \Downarrow (\varphi, \gamma, w)$ where $\varphi$ 
 and $\gamma$ are Boolean formulae and $w$ is a weight function.
 The invariant that these Boolean formulae should satisfy is that, for $e \Downarrow (\varphi, \gamma, w)$ 
 the following holds:
@@ -166,15 +169,34 @@ $$
 
 The compilation relation is as follows:
 
-$$\frac{\texttt{fresh }\ell}{\texttt{flip}~\theta \Downarrow (\ell, T, [\ell \mapsto \theta, \overline{\ell}\mapsto 1-\theta])}$$
+$$\frac{\texttt{fresh variable }\ell}{\texttt{flip}~\theta \Downarrow (\ell, T, [\ell \mapsto \theta, \overline{\ell}\mapsto 1-\theta])}$$
 
+$$\frac{g \Downarrow (\varphi_g, \gamma_g, w_g) \quad t \Downarrow (\varphi_t, \gamma_t, w_t) \quad e \Downarrow (\varphi_e, \gamma_e, w_e)}{\texttt{if}~g~\texttt{then}~t~\texttt{else}~e \Downarrow ((\varphi_g \land \varphi_t) \lor (\neg\varphi_g \land \varphi_e), (\varphi_g \land \gamma_t) \lor (\neg\varphi_g \land \gamma_e), w_g \cup w_t \cup w_e)}$$
 
-* TODO: Finish the rules above
-* TODO: Link to some docs for using our knowledge compilation library
+$$
+\frac{e_1 \Downarrow (\varphi_1, \gamma_1, w_1) \quad e_2 \Downarrow (\varphi_2, \gamma_2, w_2)}
+{x \leftarrow e_1; e_2 \Downarrow (\varphi_2[x \mapsto \varphi_1], \gamma_2[x \mapsto \gamma_1], w_1 \cup w_2)}
+$$
+
+To build Boolean formulas and weight functions, we will be using the `rsdd` library. See a tutorial **TODO**
 
 # Modeling exercises
 
-Now we will use `disc` to model and reason about a simple network reliability example.
+## The Monty Hall Problem
+
+The Monty Hall problem is a classic "paradox" in probability theory. Here's a shamelessly stolen Wikipedia description of the dilemma:  
+
+Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
+
+Your task is to make several `.disc` files that answers the host's question for you:
+
+  1. In a file named `3doors.disc`, make a `disc` program that represents the scenario in which you pick Door No. 1 before the host opens Door No. 3. The program should output the probability of winning the car.
+  
+  2. In a file named `no_switch.disc`, make a `disc` program representing the scenario immediately after the host reveals a goat behind Door No. 3. The program should output the probability of winning the car provided we do not switch.
+   
+  3.  In a file named `yes_switch.disc`, make a `disc` program representing the scenario immediately after the host reveals a goat behind Door No. 3. The program should output the probability of winning the car provided we do switch.
+
+Hint: If your program output for `no_switch.disc` or `yes_switch.disc` is 0.5 then it is wrong.
 
 ## Network Reliability
 
