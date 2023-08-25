@@ -33,7 +33,8 @@ The course grade will be determined by the following graded material:
 
 * 40% minor projects (20% each). The two minor projects are [implementing a discrete PPL](/projects/discrete_language/) 
   and [implementing a continuous language](/projects/continuous_language/). 
-* 60% [final course project](/projects/term_project/)
+* 20% participation.
+* 40% [final course project](/projects/term_project/)
 
 All graded material is turned in on <a href="https://canvas.northeastern.edu/">Canvas</a>.
 
@@ -156,17 +157,40 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
    <td>Fri Oct. 13</td>
    <td>
-        <span class="lecture">Continuous Inference II: Markov-Chain Monte Carlo</span>
+        <span class="lecture">Continuous Inference II: Metropolis Hastings</span>
         <ul>
             <li><b>Reading</b>: Chapter 12 of {% cite pml2Book %} (note: this chapter is massive, focus on the earlier parts) </li>
         </ul>
    </td>
 </tr>
 
+<tr>
+   <td>Tues Oct. 17</td>
+   <td>
+        <span class="lecture">Systems Week</span>. See <a href="/systems/">the Systems Week page</a>.
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Oct. 20</td>
+   <td>
+        <span class="lecture">Systems Week</span>
+        <ul>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Oct. 20</td>
+   <td>
+        <span class="lecture">Systems Week</span>
+        <ul>
+        </ul>
+   </td>
+</tr>
+
 
 </table>
-
-<!-- <iframe style = "width: 100%; height: 800px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6gFuy0-U7RyA3s7Gpgb4tx7ZvyxagMezyrlUYf4NbJpd4Wg2Swp2TIrH4qEt6eT-wPp7v40MJjPTJ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe> -->
 
 # Bibliography
 
