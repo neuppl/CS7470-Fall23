@@ -47,6 +47,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
     </tr>
 </thead>
 
+
 <tr>
     <td>Fri Sept 8</td>
     <td>
@@ -54,6 +55,15 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
     <!-- <li><b>Supplemental Reading</b>: </li> -->
     </td>
 </tr>
+
+
+<tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Foundations</center>
+  </td>
+</tr>
+
+
 
 <tr>
     <td>Tues Sept 12</td>
@@ -100,6 +110,12 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 </tr>
 
 <tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Designing and Implementing a Discrete PPL</center>
+  </td>
+</tr>
+
+<tr>
     <td>Tues. Sept 26</td>
     <td>
         <span class="lecture">Discrete Probabilistic Programming Language: Syntax & Semantics</span>
@@ -118,6 +134,12 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
             <li><b>Reading</b>: Course notes</li>
         </ul>
     </td>
+</tr>
+
+<tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Designing and Implementing a Continuous PPL</center>
+  </td>
 </tr>
 
 <tr>
@@ -164,31 +186,204 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
    </td>
 </tr>
 
+
+<tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Systems Week</center>
+  </td>
+</tr>
+
+
 <tr>
    <td>Tues Oct. 17</td>
    <td>
         <span class="lecture">Systems Week</span>. See <a href="/systems/">the Systems Week page</a>.
    </td>
 </tr>
-
 <tr>
    <td>Fri Oct. 20</td>
    <td>
         <span class="lecture">Systems Week</span>
+   </td>
+</tr>
+
+
+<tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Automatic Differentiation</center>
+  </td>
+</tr>
+
+<tr>
+   <td>Tues Oct. 24</td>
+   <td>
+        <span class="lecture">Automatic Differentiation I: Theory</span>
         <ul>
+        <li><b>Reading</b>: {% reference baydin2018automatic %}</li>
         </ul>
    </td>
 </tr>
 
 <tr>
-   <td>Fri Oct. 20</td>
+   <td>Fri Oct. 27</td>
    <td>
-        <span class="lecture">Systems Week</span>
+        <span class="lecture">Automatic Differentiation II: Applications</span>
         <ul>
+        <li><b>Reading</b>: </li>
+        <li><b>Supplemental reading</b>: {% cite lew2023adev %} </li>
         </ul>
    </td>
 </tr>
 
+<tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Static Analysis</center>
+  </td>
+</tr>
+
+<tr>
+   <td>Tues Oct 31</td>
+   <td>
+        <span class="lecture">Weakest Pre-Expectations I</span>
+        <ul>
+        <li><b>Reading</b>: {% cite morgan1996probabilistic %} </li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Nov. 3</td>
+   <td>
+        <span class="lecture"> Weakest Pre-Expectations II</span>
+        <ul>
+        <li><b>Reading</b>: {% cite morgan1996probabilistic %} </li>
+        <li><b>Supplemental Reading</b>: {% cite olmedo2016reasoning %} </li>
+        </ul>
+   </td>
+</tr>
+
+
+<tr>
+   <td>Tues Nov. 7</td>
+   <td>
+        <span class="lecture">Introduction to Separation Logic</span>
+        <ul>
+        <li><b>Reading</b>: {% cite reynolds2002separation %} </li>
+        <li><b>Supplemental reading</b>: {% cite o2019separation %}, <a href="https://www.cs.cmu.edu/~jcr/copenhagen08.pdf">this textbook draft</a></li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Nov. 10</td>
+   <td>
+        <span class="lecture">Probabilistic Separation Logics</span>
+        <ul>
+        <li><b>Reading</b>: {% cite li2023lilac %} </li>
+        <li><b>Supplemental Reading</b>: {% cite barthe2019probabilistic %} </li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Potpourri: A collection of modern topics in PPLs</center>
+  </td>
+</tr>
+
+<tr>
+   <td>Fri Nov. 10</td>
+   <td>
+        <span class="lecture">Verified Inference</span>
+        <ul>
+        <li><b>Reading</b>: {% cite beutner2022guaranteed %} </li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Nov. 10</td>
+   <td>
+        <span class="lecture">Generating Functions</span>
+        <ul>
+        <li><b>Reading</b>: {% cite klinkenberg2020generating %} </li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Tues Nov. 13</td>
+   <td>
+        <span class="lecture">Beyond Probability: Weighted Programming</span>
+        <ul>
+        <li><b>Reading</b>: {% cite batz2022weighted %}, {% cite kimmig2011algebraic %} </li>
+        </ul>
+   </td>
+</tr>
+
+
+<tr>
+   <td>Fri Nov. 17</td>
+   <td>
+        <span class="lecture">Advanced Semantics of PPLs</span>
+        <ul>
+        <li><b>Reading</b>: {% cite dash2023affine %} </li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Tues Nov. 21</td>
+   <td>
+        <span class="lecture">Non-Standard Semantics of PPLs</span>
+        <ul>
+        <li><b>Reading</b>: {% cite baudart2020reactive %} </li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Nov. 24</td>
+   <td>
+        <span class="lecture">No Class (Fall Break)</span>
+   </td>
+</tr>
+
+<tr>
+   <td>Tues Nov. 28</td>
+   <td>
+        <span class="lecture">Slack day</span>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Dec. 1</td>
+   <td>
+        <span class="lecture">Discussion & Outlook</span>
+   </td>
+</tr>
+
+
+
+<tr>
+  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
+    <center>Final Presentations</center>
+  </td>
+</tr>
+
+<tr>
+   <td>Tues Dec. 4</td>
+   <td>
+        <span class="lecture">Presentation Slot 1</span>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Dec. 8</td>
+   <td>
+        <span class="lecture">Presentation Slot 2</span>
+   </td>
+</tr>
 
 </table>
 
