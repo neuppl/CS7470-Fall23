@@ -1,0 +1,2 @@
+bundle exec jekyll build
+rsync -vrzc --chmod=Du=rwx,Dg=rx,Do=rx,Fu=rw,Fg=r,Fo=r --delete-before _site/ sholtzen@login.khoury.northeastern.edu:/home/sholtzen/.www/CS7470Fall23/

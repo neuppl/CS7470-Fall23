@@ -4,4 +4,4 @@ parent: "Projects"
 layout: default
 ---
 
-See [this PDF](/projects/term-project.pdf).
+See [this PDF]({{ '/projects/term-project.pdf' | relative_url }}).

@@ -7,6 +7,8 @@ layout: default
 1. TOC
 {:toc}
 
+**Note**: This project is not yet finalized.
+
 # Project overview
 
 The goal in this project is to implement your own discrete probabilistic
@@ -228,10 +230,6 @@ answer the following questions about this network's behavior:
   4. Suppose I can fix a single edge to never drop a packet. Which edge
     should I fix to maximize the probability that a packet reaches $H$, and what
     is the probability that $H$ is reached in this new fixed network?
-
-## Exercise 2
-
-TODO?
 
 # Extensions
 

@@ -31,10 +31,10 @@ programming.
 
 The course grade will be determined by the following graded material:
 
-* 40% minor projects (20% each). The two minor projects are [implementing a discrete PPL](/projects/discrete_language/) 
-  and [implementing a continuous language](/projects/continuous_language/). 
+* 40% minor projects (20% each). The two minor projects are [implementing a discrete PPL]( {{ '/projects/discrete_language/' | relative_url }}) 
+  and [implementing a continuous language]({{ '/projects/continuous_language/' | relative_url }}). 
 * 20% participation.
-* 40% [final course project](/projects/term_project/)
+* 40% [final course project]({{ '/projects/term_project/' | relative_url }})
 
 All graded material is turned in on <a href="https://canvas.northeastern.edu/">Canvas</a>.
 
@@ -268,8 +268,8 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
    <td>
         <span class="lecture">Introduction to Separation Logic</span>
         <ul>
-        <li><b>Reading</b>: {% cite reynolds2002separation %} </li>
-        <li><b>Supplemental reading</b>: {% cite o2019separation %}, <a href="https://www.cs.cmu.edu/~jcr/copenhagen08.pdf">this textbook draft</a></li>
+        <li><b>Reading</b>: {% cite li2023lilac %}  </li>
+        <li><b>Supplemental reading</b>: {% cite o2019separation %}, <a href="https://www.cs.cmu.edu/~jcr/copenhagen08.pdf">this textbook draft</a>, {% cite reynolds2002separation %}</li>
         </ul>
    </td>
 </tr>
@@ -279,8 +279,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
    <td>
         <span class="lecture">Probabilistic Separation Logics</span>
         <ul>
-        <li><b>Reading</b>: {% cite li2023lilac %} </li>
-        <li><b>Supplemental Reading</b>: {% cite barthe2019probabilistic %} </li>
+        <li><b>Reading</b>: Continue {% cite li2023lilac %}</li>
         </ul>
    </td>
 </tr>
@@ -292,7 +291,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 </tr>
 
 <tr>
-   <td>Fri Nov. 10</td>
+   <td>Tues Nov. 13</td>
    <td>
         <span class="lecture">Verified Inference</span>
         <ul>
@@ -302,7 +301,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 </tr>
 
 <tr>
-   <td>Fri Nov. 10</td>
+   <td>Fri Nov. 17</td>
    <td>
         <span class="lecture">Generating Functions</span>
         <ul>
@@ -311,26 +310,6 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
    </td>
 </tr>
 
-<tr>
-   <td>Tues Nov. 13</td>
-   <td>
-        <span class="lecture">Beyond Probability: Weighted Programming</span>
-        <ul>
-        <li><b>Reading</b>: {% cite batz2022weighted %}, {% cite kimmig2011algebraic %} </li>
-        </ul>
-   </td>
-</tr>
-
-
-<tr>
-   <td>Fri Nov. 17</td>
-   <td>
-        <span class="lecture">Advanced Semantics of PPLs</span>
-        <ul>
-        <li><b>Reading</b>: {% cite dash2023affine %} </li>
-        </ul>
-   </td>
-</tr>
 
 <tr>
    <td>Tues Nov. 21</td>
@@ -352,7 +331,10 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
    <td>Tues Nov. 28</td>
    <td>
-        <span class="lecture">Slack day</span>
+        <span class="lecture">Advanced Semantics of PPLs</span>
+        <ul>
+        <li><b>Reading</b>: {% cite dash2023affine %} </li>
+        </ul>
    </td>
 </tr>
 
