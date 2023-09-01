@@ -3,7 +3,7 @@ description: "Course webpage for CS7470, taught at Northeastern University by St
 theme: just-the-docs
 
 url: 
-baseurl: 
+baseurl: /home/sholtzen/CS7470Fall23
 
 aux_links:
   # Template Repository: https://github.com/just-the-docs/just-the-docs-template

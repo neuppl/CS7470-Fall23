@@ -31,8 +31,8 @@ programming.
 
 The course grade will be determined by the following graded material:
 
-* 40% minor projects (20% each). The two minor projects are [implementing a discrete PPL]( {{ '/projects/discrete_language/' | relative_url }}) 
-  and [implementing a continuous language]({{ '/projects/continuous_language/' | relative_url }}). 
+* 40% minor projects (20% each). The two minor projects are [implementing a discrete PPL]( {{ '/projects/discrete_language.html' | relative_url }}) 
+  and [implementing a continuous language]({{ '/projects/continuous_language.html' | relative_url }}). 
 * 20% participation.
 * 40% [final course project]({{ '/projects/term_project/' | relative_url }})
 
