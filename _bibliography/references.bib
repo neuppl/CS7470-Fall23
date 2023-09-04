@@ -308,3 +308,159 @@
   pages={898--912},
   year={2020}
 }
+
+
+@article{vasilenko2022safe,
+author = {Vasilenko, Elizaveta and Vazou, Niki and Barthe, Gilles},
+title = {Safe Couplings: Coupled Refinement Types},
+year = {2022},
+issue_date = {August 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {6},
+number = {ICFP},
+url = {https://doi.org/10.1145/3547643},
+doi = {10.1145/3547643},
+abstract = {We enhance refinement types with mechanisms to reason about relational properties of probabilistic computations. Our mechanisms, which are inspired from probabilistic couplings, are applicable to a rich set of probabilistic properties, including expected sensitivity, which ensures that the distance between outputs of two probabilistic computations can be controlled from the distance between their inputs. We implement our mechanisms in the type system of Liquid Haskell and we use them to formally verify Haskell implementations of two classic machine learning algorithms: Temporal Difference (TD) reinforcement learning and stochastic gradient descent (SGD). We formalize a fragment of our system for discrete distributions and we prove soundness with respect to a set-theoretical semantics.},
+journal = {Proc. ACM Program. Lang.},
+month = {aug},
+articleno = {112},
+numpages = {29},
+keywords = {program verification, relational types, Haskell, refinement types}
+}
+
+
+@inproceedings{10.1145/2933575.2934554,
+author = {Barthe, Gilles and Gaboardi, Marco and Gr\'{e}goire, Benjamin and Hsu, Justin and Strub, Pierre-Yves},
+title = {Proving Differential Privacy via Probabilistic Couplings},
+year = {2016},
+isbn = {9781450343916},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2933575.2934554},
+doi = {10.1145/2933575.2934554},
+abstract = {Over the last decade, differential privacy has achieved widespread adoption within the privacy community. Moreover, it has attracted significant attention from the verification community, resulting in several successful tools for formally proving differential privacy. Although their technical approaches vary greatly, all existing tools rely on reasoning principles derived from the composition theorem of differential privacy. While this suffices to verify most common private algorithms, there are several important algorithms whose privacy analysis does not rely solely on the composition theorem. Their proofs are significantly more complex, and are currently beyond the reach of verification tools.In this paper, we develop compositional methods for formally verifying differential privacy for algorithms whose analysis goes beyond the composition theorem. Our methods are based on deep connections between differential privacy and probabilistic couplings, an established mathematical tool for reasoning about stochastic processes. Even when the composition theorem is not helpful, we can often prove privacy by a coupling argument.We demonstrate our methods on two algorithms: the Exponential mechanism and the Above Threshold algorithm, the critical component of the famous Sparse Vector algorithm. We verify these examples in a relational program logic apRHL+, which can construct approximate couplings. This logic extends the existing apRHL logic with more general rules for the Laplace mechanism and the one-sided Laplace mechanism, and new structural rules enabling pointwise reasoning about privacy; all the rules are inspired by the connection with coupling. While our paper is presented from a formal verification perspective, we believe that its main insight is of independent interest for the differential privacy community.},
+booktitle = {Proceedings of the 31st Annual ACM/IEEE Symposium on Logic in Computer Science},
+pages = {749–758},
+numpages = {10},
+location = {New York, NY, USA},
+series = {LICS '16}
+}
+
+
+@inproceedings{kozen1979semantics,
+  title={Semantics of probabilistic programs},
+  author={Kozen, Dexter},
+  booktitle={20th Annual Symposium on Foundations of Computer Science (sfcs 1979)},
+  pages={101--114},
+  year={1979},
+  organization={IEEE}
+}
+
+@article{10.1145/565816.503288,
+author = {Ramsey, Norman and Pfeffer, Avi},
+title = {Stochastic Lambda Calculus and Monads of Probability Distributions},
+year = {2002},
+issue_date = {Jan. 2002},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {37},
+number = {1},
+issn = {0362-1340},
+url = {https://doi.org/10.1145/565816.503288},
+doi = {10.1145/565816.503288},
+abstract = {Probability distributions are useful for expressing the meanings of probabilistic languages, which support formal modeling of and reasoning about uncertainty. Probability distributions form a monad, and the monadic definition leads to a simple, natural semantics for a stochastic lambda calculus, as well as simple, clean implementations of common queries. But the monadic implementation of the expectation query can be much less efficient than current best practices in probabilistic modeling. We therefore present a language of measure terms, which can not only denote discrete probability distributions but can also support the best known modeling techniques. We give a translation of stochastic lambda calculus into measure terms. Whether one translates into the probability monad or into measure terms, the results of the translations denote the same probability distribution.},
+journal = {SIGPLAN Not.},
+month = {jan},
+pages = {154–165},
+numpages = {12}
+}
+
+
+@inproceedings{10.1145/503272.503288,
+author = {Ramsey, Norman and Pfeffer, Avi},
+title = {Stochastic Lambda Calculus and Monads of Probability Distributions},
+year = {2002},
+isbn = {1581134509},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/503272.503288},
+doi = {10.1145/503272.503288},
+abstract = {Probability distributions are useful for expressing the meanings of probabilistic languages, which support formal modeling of and reasoning about uncertainty. Probability distributions form a monad, and the monadic definition leads to a simple, natural semantics for a stochastic lambda calculus, as well as simple, clean implementations of common queries. But the monadic implementation of the expectation query can be much less efficient than current best practices in probabilistic modeling. We therefore present a language of measure terms, which can not only denote discrete probability distributions but can also support the best known modeling techniques. We give a translation of stochastic lambda calculus into measure terms. Whether one translates into the probability monad or into measure terms, the results of the translations denote the same probability distribution.},
+booktitle = {Proceedings of the 29th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
+pages = {154–165},
+numpages = {12},
+location = {Portland, Oregon},
+series = {POPL '02}
+}
+
+@article{lawvere1962category,
+  title={The category of probabilistic mappings},
+  author={Lawvere, F William},
+  journal={preprint},
+  url={https://ncatlab.org/nlab/files/lawvereprobability1962.pdf},
+  year={1962}
+}
+
+@inproceedings{giry2006categorical,
+  title={A categorical approach to probability theory},
+  author={Giry, Michele},
+  booktitle={Categorical Aspects of Topology and Analysis: Proceedings of an International Conference Held at Carleton University, Ottawa, August 11--15, 1981},
+  pages={68--85},
+  year={2006},
+  organization={Springer}
+}
+
+@inbook{giry1986,
+author = {Giry, Michèle},
+year = {1986},
+journal = {Categorical Aspects of Topology and Analysis},
+title = {A categorical approach to probability theory},
+doi = {10.1007/BFb0092872}
+}
+
+@article{10.1145/3374208,
+author = {Narayanan, Praveen and Shan, Chung-chieh},
+title = {Symbolic Disintegration with a Variety of Base Measures},
+year = {2020},
+issue_date = {June 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {42},
+number = {2},
+issn = {0164-0925},
+url = {https://doi.org/10.1145/3374208},
+doi = {10.1145/3374208},
+abstract = {Disintegration is a relation on measures and a transformation on probabilistic programs that generalizes density calculation and conditioning, two operations widely used for exact and approximate inference. Existing program transformations that find a disintegration or density automatically are limited to a fixed base measure that is an independent product of Lebesgue and counting measures, so they are of no help in practical cases that require tricky reasoning about other base measures. We present the first disintegrator that handles variable base measures, including discrete-continuous mixtures, dependent products, and disjoint sums. By analogy with type inference, our disintegrator can check a given base measure as well as infer an unknown one that is principal. We derive the disintegrator and prove it sound by equational reasoning from semantic specifications. It succeeds in a variety of applications where disintegration and density calculation had not been previously mechanized.},
+journal = {ACM Trans. Program. Lang. Syst.},
+month = {may},
+articleno = {9},
+numpages = {60},
+keywords = {conditional distributions, density functions, Probabilistic programs, measure kernels}
+}
+
+@inproceedings{10.5555/3329995.3330072,
+author = {Heunen, Chris and Kammar, Ohad and Staton, Sam and Yang, Hongseok},
+title = {A Convenient Category for Higher-Order Probability Theory},
+year = {2017},
+isbn = {9781509030187},
+publisher = {IEEE Press},
+abstract = {Higher-order probabilistic programming languages allow programmers to write sophisticated models in machine learning and statistics in a succinct and structured way, but step outside the standard measure-theoretic formalization of probability theory. Programs may use both higher-order functions and continuous distributions, or even define a probability distribution on functions. But standard probability theory does not handle higher-order functions well: the category of measurable spaces is not cartesian closed.Here we introduce quasi-Borel spaces. We show that these spaces: form a new formalization of probability theory replacing measurable spaces; form a cartesian closed category and so support higher-order functions; form a well-pointed category and so support good proof principles for equational reasoning; and support continuous probability distributions. We demonstrate the use of quasi-Borel spaces for higher-order functions and probability by: showing that a well-known construction of probability theory involving random functions gains a cleaner expression; and generalizing de Finetti's theorem, that is a crucial theorem in probability theory, to quasi-Borel spaces.},
+booktitle = {Proceedings of the 32nd Annual ACM/IEEE Symposium on Logic in Computer Science},
+articleno = {77},
+numpages = {12},
+location = {Reykjav\'{\i}k, Iceland},
+series = {LICS '17}
+}
+
+
+@article{barthe2017proving,
+  title={Proving expected sensitivity of probabilistic programs},
+  author={Barthe, Gilles and Espitau, Thomas and Gr{\'e}goire, Benjamin and Hsu, Justin and Strub, Pierre-Yves},
+  journal={Proceedings of the ACM on Programming Languages},
+  volume={2},
+  number={POPL},
+  pages={1--29},
+  year={2017},
+  publisher={ACM New York, NY, USA}
+}

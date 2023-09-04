@@ -1,6 +1,7 @@
 ---
 title: Syllabus
 layout: home
+nav_order: 1
 ---
 
 # CS 7470: Topics in Programming Languages: Foundations of Probabilistic Programming
@@ -368,6 +369,8 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 </tr>
 
 </table>
+
+[See the reading list for more reading]({{ '/reading_list.html' | relative_url }})
 
 # Bibliography
 
