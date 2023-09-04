@@ -11,6 +11,16 @@ languages, probability, and artificial intelligence. Here are some general
 resources (mostly textbooks) for filling in background in these areas.
 Most of these are books on my bookshelf.
 
+There are a few textbooks on probabilistic programming that I recommend:
+
+* {% reference barthe2020foundations %}
+  - This book is open-access and available [here](https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/819623B1B5B33836476618AC0621F0EE)
+  - It is very programming-languages oriented -- it has nice chapters on semantics, 
+    program logics for couplings, etc.
+* {% reference van2018introduction %}
+  - This book is very statistical machine-learing oriented, and focuses heavily on 
+    inference.
+
 ## Programming Languages
 
 * Good introductory texts: 

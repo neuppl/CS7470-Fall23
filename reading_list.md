@@ -8,7 +8,16 @@ nav_order: 2
 
 # Annotated reading list
 
-This page contains a collection of interesting probabilistic programming papers organized by topic that are relevant to the course. This bibliography is not meant to be exhaustive of all useful papers; it is meant to contain a good starting point for each of the major topic areas. These papers are a mix of classic papers and papers that I want to read. Feel free to peruse these papers for project ideas. These papers are sorted chronologically within each category.
+This page contains a collection of interesting probabilistic programming papers
+organized by topic that are relevant to the course. This bibliography is not
+meant to be exhaustive of all useful papers; it is meant to contain a good
+starting point for each of the major topic areas. These papers are a mix of
+classic papers and papers that I want to read. Feel free to peruse these papers
+for project ideas. These papers are sorted chronologically within each category.
+
+Another excellent resource is the following textbook:
+
+{% reference barthe2020foundations %}
 
 1. TOC
 {:toc}
@@ -39,15 +48,9 @@ These papers are concerned with the question of "what does a probabilistic progr
     </td>
 </tr>
 <tr>
-    <td>{% reference morgan1996probabilistic %}</td>
-    <td>
-        Generalized weakest preconditions to probabilistic programs, introduced weakest pre-expectations.
-    </td>
-</tr>
-<tr>
     <td>{% reference 10.1145/503272.503288 %}</td>
     <td>
-        Develops a core probabilistic programming calculus using the probability monad.
+        Develops a core probabilistic programming calculus using the probability monad. A good first read.
     </td>
 </tr>
 
@@ -79,16 +82,25 @@ These papers are concerned with the question of verifying correctness properties
 
 <table>
 <tr>
-    <td>{% reference 10.1145/2933575.2934554 %}</td>
     <td>
-        One of the earlier papers on verifying probabilistic properties via coupling.
+        {% reference kozen1983probabilistic %}
+    </td>
+    <td>
+    The first example of a program logic for probabilistic programs.
     </td>
 </tr>
 <tr>
     <td>
-        {% reference barthe2017proving %}
+        {% reference morgan1996probabilistic %}
     </td>
     <td>
+    Introduced probabilistic predicate transformers and weakest pre-expectations.
+    </td>
+</tr>
+<tr>
+    <td>{% reference 10.1145/2933575.2934554 %}</td>
+    <td>
+        One of the earlier papers on verifying probabilistic properties via coupling.
     </td>
 </tr>
 <tr>
@@ -105,9 +117,21 @@ These papers are concerned with the question of verifying correctness properties
 
 # Verified Inference
 
-These papers are concerned with the question of "how do we determine whether or not a probabilistic programming system is correctly implemented"? It is notoriously difficult to implement inference algorithms correctly, and increasingly important decisions are being made based on the outcome of inference computations, making this a very important area for research in modern PPLs.
+These papers are concerned with the question of "how do we determine whether or
+not a probabilistic programming system is correctly implemented"? It is
+notoriously difficult to implement inference algorithms correctly, and
+increasingly important decisions are being made based on the outcome of
+inference computations, making this a very important area for research in modern
+PPLs.
+
+
 
 # Automatic Differentiation
 
+What does automatic differentiation have to do with probabilistic programs? It
+turns out the two are intimately related: automatic differentiation can inform
+how we explore the search space during probabilistic inference. This is critical
+for scaling inference on certain kinds probabilistic programs. Beyond inference,
+automatic differentiation has can facilitate other kinds of probabilistic 
+programming tasks like maximum-likelihood learning.
 
-# Efficient Inference

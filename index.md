@@ -149,7 +149,8 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
         <span class="lecture">Introduction to Continuous Probability</span>
         <ul>
             <li><b>Reading</b>: Course notes</li>
-            <li><b>General reference</b>: {% cite axler2020measure %} </li>
+            <li><b>Supplemental reading:</b> Chapters 1 and 2 of {% cite barthe2020foundations %}</li>
+            <li><b>General reference on continuous probability</b>: {% cite axler2020measure %} </li>
         </ul>
    </td>
 </tr>
@@ -245,15 +246,38 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
    <td>Tues Oct 31</td>
    <td>
-        <span class="lecture">Weakest Pre-Expectations I</span>
+        <span class="lecture">Probabilistic Separation Logics I</span>
         <ul>
-        <li><b>Reading</b>: {% cite morgan1996probabilistic %} </li>
+        <li><b>Reading</b>: {% cite li2023lilac %}  </li>
+        <li><b>Supplemental reading</b>: {% cite o2019separation %}, <a href="https://www.cs.cmu.edu/~jcr/copenhagen08.pdf">this textbook draft</a>, {% cite reynolds2002separation %}</li>
         </ul>
    </td>
 </tr>
 
 <tr>
    <td>Fri Nov. 3</td>
+   <td>
+        <span class="lecture">Probabilistic Separation Logics II</span>
+        <ul>
+        <li><b>Reading</b>: Continue {% cite li2023lilac %}</li>
+        </ul>
+   </td>
+</tr>
+
+
+
+<tr>
+   <td>Tues Nov 7</td>
+   <td>
+        <span class="lecture">Weakest Pre-Expectations</span>
+        <ul>
+        <li><b>Reading</b>: {% cite morgan1996probabilistic %}. This is a difficult read; do your best.</li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Nov 10</td>
    <td>
         <span class="lecture"> Weakest Pre-Expectations II</span>
         <ul>
@@ -263,27 +287,6 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
    </td>
 </tr>
 
-
-<tr>
-   <td>Tues Nov. 7</td>
-   <td>
-        <span class="lecture">Introduction to Separation Logic</span>
-        <ul>
-        <li><b>Reading</b>: {% cite li2023lilac %}  </li>
-        <li><b>Supplemental reading</b>: {% cite o2019separation %}, <a href="https://www.cs.cmu.edu/~jcr/copenhagen08.pdf">this textbook draft</a>, {% cite reynolds2002separation %}</li>
-        </ul>
-   </td>
-</tr>
-
-<tr>
-   <td>Fri Nov. 10</td>
-   <td>
-        <span class="lecture">Probabilistic Separation Logics</span>
-        <ul>
-        <li><b>Reading</b>: Continue {% cite li2023lilac %}</li>
-        </ul>
-   </td>
-</tr>
 
 <tr>
   <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
