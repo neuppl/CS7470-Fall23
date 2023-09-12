@@ -14,7 +14,7 @@ layout: default
 The goal in this project is to implement your own discrete probabilistic
 programming language. The skeleton code for the project is available on GitHub:
 
-[https://github.com/neuppl/disc](https://github.com/neuppl/disc)
+[https://github.com/neuppl/disc](https://github.com/neuppl/disc)****
 
 **Due date**: The project is due **Tuesday Oct. 3** at 11:59PM EST. If you require an extension, email 
 the instructor.
@@ -180,7 +180,7 @@ $$
 {x \leftarrow e_1; e_2 \Downarrow (\varphi_2[x \mapsto \varphi_1], \gamma_2[x \mapsto \gamma_1], w_1 \cup w_2)}
 $$
 
-To build Boolean formulas and weight functions, we will be using the `rsdd` library. See a tutorial **TODO**
+To build Boolean formulas and weight functions, we will be using the `rsdd` library. See a tutorial [here.](https://www.khoury.northeastern.edu/home/sholtzen/CS7470Fall23/projects/rsdd.html)
 
 # Modeling exercises
 
