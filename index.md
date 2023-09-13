@@ -35,9 +35,9 @@ The course grade will be determined by the following graded material:
 * 40% minor projects (20% each). The two minor projects are [implementing a discrete PPL]( {{ '/projects/discrete_language.html' | relative_url }}) 
   and [implementing a continuous language]({{ '/projects/continuous_language.html' | relative_url }}). 
 * 20% participation.
-* 40% [final course project]({{ '/projects/term_project/' | relative_url }})
+* 40% [final course project]({{ '/projects/term_project.html' | relative_url }})
 
-All graded material is turned in on <a href="https://canvas.northeastern.edu/">Canvas</a>.
+All graded material is turned in on <a href="https://canvas.northeastern.edu">Canvas</a>. Join our <a href="https://join.slack.com/t/northeastern-7ho2086/shared_invite/zt-233t6oo4g-_ROUSvI1xAM5LN0rwQZpIg">Slack</a>!
 
 # Schedule
 
@@ -53,6 +53,9 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
     <td>Fri Sept 8</td>
     <td>
     <span class="lecture">Introduction & Overview</span>
+    <li><a href="{{ '/assets/cs7470-lecture-1.pdf' | relative_url}}">Lecture 1 Slides</a></li>
+    <li><b>Reading:</b> <a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-1/lecture-1.pdf">Lecture 1 course notes</a></li>
+    <li><a href="https://course.ccs.neu.edu/cs4410sp22/hw_warmup1_assignment.html">Recommended exercises if you have not programmed in OCaml before</a></li>
     <!-- <li><b>Supplemental Reading</b>: </li> -->
     </td>
 </tr>
@@ -69,7 +72,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
     <td>Tues Sept 12</td>
     <td>
-    <span class="lecture">Propositional Logic: Syntax, Semantics, and Satisfiability</span>
+    <span class="lecture">Lecture: Propositional Logic: Syntax, Semantics, and Satisfiability</span>
     <ul>
         <li><b>Reading</b>: Chapter 2 of {% cite darwiche2009modeling %}</li>
         <li><b>Supplemental Reading</b>: Chapter 1 of {% cite biere2009handbook %}</li>
@@ -80,7 +83,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
     <td>Fri. Sept. 15</td>
     <td>
-    <span class="lecture">Discrete Probability</span>
+    <span class="lecture">Lecture: Propositional Probability</span>
     <ul>
         <li><b>Reading</b>: Chapter 3 of {% cite darwiche2009modeling %}</li>
         <li><b>Supplemental Reading</b>: Chapter 8.1, 8.2 of {% cite  graham1989concrete %}. </li>
@@ -88,41 +91,25 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
     </td>
 </tr>
 
-<tr>
-    <td>Tues Sept. 19</td>
-    <td>
-        <span class="lecture">Exact Inference & Weighted Model Counting</span>
-        <ul>
-            <li><b>Reading</b>: {% cite chavira2008probabilistic %}</li>
-            <li><b>Supplemental reading</b>: {% cite gomes2021model %} </li>
-        </ul>
-    </td>
-</tr>
 
 <tr>
     <td>Fri. Sept 22</td>
     <td>
-        <span class="lecture">Programming Languages: Abstract Syntax & Semantics</span>
+        <span class="lecture">Lecture: Knowledge Compilation</span>
         <ul>
-            <li><b>Reading</b>: Chapter 3: "Untyped Arithmetic Expressions" in {% cite pierce2002types %} </li>
-            <li><b>Supplemental reading</b>: Chapter 5 of {% cite harper2016practical %}; Lecture 3 notes from <a href="https://www.cs.cornell.edu/courses/cs6110/2013sp/">this course</a></li>
+            <li><b>Reading</b>: {% cite darwiche2002knowledge %} </li>
+            <li><b>Supplemental reading</b>: {% cite chavira2008probabilistic %}</li>
         </ul>
     </td>
 </tr>
 
-<tr>
-  <td colspan="2" class="divider" style = "background-color: #EBEDEF;">
-    <center>Designing and Implementing a Discrete PPL</center>
-  </td>
-</tr>
 
 <tr>
     <td>Tues. Sept 26</td>
     <td>
-        <span class="lecture">Discrete Probabilistic Programming Language: Syntax & Semantics</span>
+        <span class="lecture">No Class (please attend <a href="https://neu-se.github.io/software-day-23/">Software Day</a>)</span>
         <ul>
             <li><b>Reading</b>: Course notes</li>
-            <li><b>Supplemental reading</b>: {% cite holtzen2020scaling %} </li>
         </ul>
     </td>
 </tr>
@@ -130,9 +117,10 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
     <td>Fri. Sept 29</td>
     <td>
-        <span class="lecture">Discrete Probabilistic Programming Language: Exact Inference</span>
+        <span class="lecture">Lecture: Discrete Probabilistic Programming Language, Exact Inference</span>
         <ul>
-            <li><b>Reading</b>: Course notes</li>
+            <li><b>Reading</b>: Chapter 3: "Untyped Arithmetic Expressions" in {% cite pierce2002types %} </li>
+            <li><b>Supplemental reading</b>: Chapter 5 of {% cite harper2016practical %}; Lecture 3 notes from <a href="https://www.cs.cornell.edu/courses/cs6110/2013sp/">this course</a></li>
         </ul>
     </td>
 </tr>
@@ -146,19 +134,19 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
    <td>Tues Oct. 3</td>
    <td>
-        <span class="lecture">Introduction to Continuous Probability</span>
+        <span class="lecture">Lecture: Introduction to Continuous Probability</span>
         <ul>
-            <li><b>Reading</b>: Course notes</li>
-            <li><b>Supplemental reading:</b> Chapters 1 and 2 of {% cite barthe2020foundations %}</li>
+            <li><b>Reading</b>: Chapter 2 up to section 2.4 of {% cite barthe2020foundations %}</li>
             <li><b>General reference on continuous probability</b>: {% cite axler2020measure %} </li>
         </ul>
    </td>
 </tr>
 
+
 <tr>
-   <td>Fri Oct. 6</td>
+   <td>Fir Oct. 6</td>
    <td>
-        <span class="lecture">Continuous Inference I: Monte-Carlo Methods</span>
+        <span class="lecture">Lecture: Importance Sampling Semantics</span>
         <ul>
             <li><b>Reading</b>: Chapter 11 of {% cite pml2Book %} </li>
             <li><b>Supplemental reading</b>: {% cite ramsey2002stochastic %}, Chapter 1 in {% cite barthe2020foundations %} </li>
@@ -166,14 +154,12 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
    </td>
 </tr>
 
-
 <tr>
    <td>Tues Oct. 10</td>
    <td>
-        <span class="lecture">Continuous Probabilistic Programming Languages: Syntax & Importance Sampling Semantics</span>
+        <span class="lecture">Markov-Chain Monte Carlo</span>
         <ul>
-            <li><b>Reading</b>: Course notes</li>
-            <li><b>Supplemental reading</b>: {% cite ramsey2002stochastic %}, Chapter 1 in {% cite barthe2020foundations %} </li>
+            <li><b>Reading</b>: Chapter 12 of {% cite pml2Book %} (note: this chapter is massive, focus on the earlier parts) </li>
         </ul>
    </td>
 </tr>
@@ -181,9 +167,8 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
    <td>Fri Oct. 13</td>
    <td>
-        <span class="lecture">Continuous Inference II: Metropolis Hastings</span>
+        <span class="lecture">Slack day</span>
         <ul>
-            <li><b>Reading</b>: Chapter 12 of {% cite pml2Book %} (note: this chapter is massive, focus on the earlier parts) </li>
         </ul>
    </td>
 </tr>
@@ -199,7 +184,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu/">C
 <tr>
    <td>Tues Oct. 17</td>
    <td>
-        <span class="lecture">Systems Week</span>. See <a href="/systems/">the Systems Week page</a>.
+        <span class="lecture">Systems Week</span>. See <a href="{{ '/systems.html' | relative_url }}">the Systems Week page</a>.
    </td>
 </tr>
 <tr>

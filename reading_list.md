@@ -125,6 +125,16 @@ inference computations, making this a very important area for research in modern
 PPLs.
 
 
+<!-- <table>
+<tr>
+    <td>
+        {% reference kozen1983probabilistic %}
+    </td>
+    <td>
+    </td>
+</tr>
+</table>
+ -->
 
 # Automatic Differentiation
 
@@ -135,3 +145,13 @@ for scaling inference on certain kinds probabilistic programs. Beyond inference,
 automatic differentiation has can facilitate other kinds of probabilistic 
 programming tasks like maximum-likelihood learning.
 
+<!-- <table>
+<tr>
+    <td>
+        {% reference kozen1983probabilistic %}
+    </td>
+    <td>
+    The first example of a program logic for probabilistic programs.
+    </td>
+</tr>
+</table> -->
