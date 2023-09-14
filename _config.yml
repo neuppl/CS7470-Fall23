@@ -5,6 +5,12 @@ theme: just-the-docs
 url: 
 baseurl: /home/sholtzen/CS7470Fall23
 
+nav_external_links:
+  - title: Course Notes
+    url: https://github.com/neuppl/CS7470-Notes
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+
+
 aux_links:
   # Template Repository: https://github.com/just-the-docs/just-the-docs-template
 

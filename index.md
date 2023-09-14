@@ -72,8 +72,9 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 <tr>
     <td>Tues Sept 12</td>
     <td>
-    <span class="lecture">Lecture: Propositional Logic: Syntax, Semantics, and Satisfiability</span>
+    <span class="lecture">Propositional Probability I: Semantics</span>
     <ul>
+        <li><a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-2/lecture-2.pdf">Lecture 2 notes</a></li>
         <li><b>Reading</b>: Chapter 2 of {% cite darwiche2009modeling %}</li>
         <li><b>Supplemental Reading</b>: Chapter 1 of {% cite biere2009handbook %}</li>
     </ul>
@@ -83,7 +84,7 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 <tr>
     <td>Fri. Sept. 15</td>
     <td>
-    <span class="lecture">Lecture: Propositional Probability</span>
+    <span class="lecture">Propositional Probability II: Reasoning</span>
     <ul>
         <li><b>Reading</b>: Chapter 3 of {% cite darwiche2009modeling %}</li>
         <li><b>Supplemental Reading</b>: Chapter 8.1, 8.2 of {% cite  graham1989concrete %}. </li>
@@ -93,12 +94,23 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 
 
 <tr>
-    <td>Fri. Sept 22</td>
+    <td>Tues. Sept 19</td>
     <td>
-        <span class="lecture">Lecture: Knowledge Compilation</span>
+        <span class="lecture">Propositional Probability III: Compiling</span>
         <ul>
             <li><b>Reading</b>: {% cite darwiche2002knowledge %} </li>
             <li><b>Supplemental reading</b>: {% cite chavira2008probabilistic %}</li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+    <td>Fri. Sept 22</td>
+    <td>
+        <span class="lecture">Discrete Probabilistic Programming</span>
+        <ul>
+            <li><b>Reading</b>: Chapter 3: "Untyped Arithmetic Expressions" in {% cite pierce2002types %} </li>
+            <li><b>Supplemental reading</b>: Chapter 5 of {% cite harper2016practical %}; Lecture 3 notes from <a href="https://www.cs.cornell.edu/courses/cs6110/2013sp/">this course</a></li>
         </ul>
     </td>
 </tr>
@@ -117,11 +129,6 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 <tr>
     <td>Fri. Sept 29</td>
     <td>
-        <span class="lecture">Lecture: Discrete Probabilistic Programming Language, Exact Inference</span>
-        <ul>
-            <li><b>Reading</b>: Chapter 3: "Untyped Arithmetic Expressions" in {% cite pierce2002types %} </li>
-            <li><b>Supplemental reading</b>: Chapter 5 of {% cite harper2016practical %}; Lecture 3 notes from <a href="https://www.cs.cornell.edu/courses/cs6110/2013sp/">this course</a></li>
-        </ul>
     </td>
 </tr>
 
