@@ -14,7 +14,7 @@ layout: default
 The goal in this project is to implement your own discrete probabilistic
 programming language. The skeleton code for the project is available on GitHub:
 
-[https://github.com/neuppl/disc](https://github.com/neuppl/disc)
+[https://github.com/neuppl/disc](https://github.com/neuppl/disc)****
 
 **Due date**: The project is due **Tuesday Oct. 3** at 11:59PM EST. If you require an extension, email 
 the instructor.
@@ -70,7 +70,7 @@ be true, then returns the posterior probability of coin `x` being true. The
 resulting posterior is:
 
 $$
-\frac{0.6 \times 0.3 + 0.6 \times 0.3}{0.6 \times 0.3 +0.6\times0.3+0.4\times0.3} \approx 0.8333333.
+\frac{0.6}{0.6 \times 0.3 +0.6\times0.7+0.4\times0.3} \approx 0.8333333.
 $$
 
 # Semantics
@@ -180,7 +180,7 @@ $$
 {x \leftarrow e_1; e_2 \Downarrow (\varphi_2[x \mapsto \varphi_1], \gamma_2[x \mapsto \gamma_1], w_1 \cup w_2)}
 $$
 
-To build Boolean formulas and weight functions, we will be using the `rsdd` library. See a tutorial **TODO**
+To build Boolean formulas and weight functions, we will be using the `rsdd` library. See a tutorial [here.](https://www.khoury.northeastern.edu/home/sholtzen/CS7470Fall23/projects/rsdd.html)
 
 # Modeling exercises
 
@@ -192,7 +192,7 @@ Suppose you're on a game show, and you're given the choice of three doors: Behin
 
 Your task is to make several `.disc` files that answers the host's question for you:
 
-  1. In a file named `3doors.disc`, make a `disc` program that represents the scenario in which you pick Door No. 1 before the host opens Door No. 3. The program should output the probability of winning the car.
+  1. In a file named `3doors.disc`, make a `disc` program that represents the scenario in which you pick Door No. 1 before the host opens Door No. 3. The program should output the probability of winning the car. Make sure you can't open two doors at once (we'll be testing for that!).
   
   2. In a file named `no_switch.disc`, make a `disc` program representing the scenario immediately after the host reveals a goat behind Door No. 3. The program should output the probability of winning the car provided we do not switch.
    
