@@ -1,3 +1,8 @@
+---
+title: Overview of rsdd
+nav_exclude: true
+---
+
 # A brief overview of RSDD
 
 RSDD is a Rust implementation of decision diagrams, more specifically binary decision diagrams (BDDs) and sentential decision diagrams (SDDs), two important compilation targets in propositional knowledge compilation. For this project we will be working exclusively with BDDs.

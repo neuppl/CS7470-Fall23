@@ -7,16 +7,19 @@ layout: default
 1. TOC
 {:toc}
 
-**Note**: This project is not yet finalized.
-
 # Project overview
 
 The goal in this project is to implement your own discrete probabilistic
 programming language. The skeleton code for the project is available on GitHub:
 
-[https://github.com/neuppl/disc](https://github.com/neuppl/disc)****
+[https://github.com/neuppl/disc](https://github.com/neuppl/disc)
 
-**Due date**: The project is due **Tuesday Oct. 3** at 11:59PM EST. If you require an extension, email 
+**Note**: This is the first time we are ever running this project, and there is 
+quite a bit of new code! If you encounter issues (you almost certainly will), 
+please feel free to raise those issues with the instructor on Slack, and to 
+file GitHub issues.
+
+**Due date**: The project is due **Tuesday Oct. 20** at 11:59PM EST. If you require an extension, email 
 the instructor.
 
 **Rubric**: The project will be evaluated according to following rubric:
@@ -180,7 +183,7 @@ $$
 {x \leftarrow e_1; e_2 \Downarrow (\varphi_2[x \mapsto \varphi_1], \gamma_2[x \mapsto \gamma_1], w_1 \cup w_2)}
 $$
 
-To build Boolean formulas and weight functions, we will be using the `rsdd` library. See a tutorial [here.](https://www.khoury.northeastern.edu/home/sholtzen/CS7470Fall23/projects/rsdd.html)
+To build Boolean formulas and weight functions, we will be using the `rsdd` library. See a tutorial [here.]({{ '/projects/rsdd.html' | relative_url }})
 
 # Modeling exercises
 

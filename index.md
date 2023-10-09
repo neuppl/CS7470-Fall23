@@ -84,8 +84,9 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 <tr>
     <td>Fri. Sept. 15</td>
     <td>
-    <span class="lecture">Propositional Probability II: Reasoning</span>
+    <span class="lecture">Propositional Probability II: A propositional PPL</span>
     <ul>
+        <li><a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-3/lecture-3.pdf">Lecture 3 notes</a></li>
         <li><b>Reading</b>: Chapter 3 of {% cite darwiche2009modeling %}</li>
         <li><b>Supplemental Reading</b>: Chapter 8.1, 8.2 of {% cite  graham1989concrete %}. </li>
     </ul>
@@ -96,8 +97,9 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 <tr>
     <td>Tues. Sept 19</td>
     <td>
-        <span class="lecture">Propositional Probability III: Compiling</span>
+        <span class="lecture">Propositional Probability III: Knowledge compilation</span>
         <ul>
+            <li><a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-4/lecture-4.pdf">Lecture 4 notes</a></li>
             <li><b>Reading</b>: {% cite darwiche2002knowledge %} </li>
             <li><b>Supplemental reading</b>: {% cite chavira2008probabilistic %}</li>
         </ul>
@@ -107,10 +109,9 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 <tr>
     <td>Fri. Sept 22</td>
     <td>
-        <span class="lecture">Discrete Probabilistic Programming</span>
+        <span class="lecture">Propositional Probability IV: Binary decision diagrams</span>
         <ul>
-            <li><b>Reading</b>: Chapter 3: "Untyped Arithmetic Expressions" in {% cite pierce2002types %} </li>
-            <li><b>Supplemental reading</b>: Chapter 5 of {% cite harper2016practical %}; Lecture 3 notes from <a href="https://www.cs.cornell.edu/courses/cs6110/2013sp/">this course</a></li>
+            <li><a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-5/lecture-5.pdf">Lecture 5 notes</a></li>
         </ul>
     </td>
 </tr>
@@ -119,17 +120,38 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 <tr>
     <td>Tues. Sept 26</td>
     <td>
-        <span class="lecture">No Class (please attend <a href="https://neu-se.github.io/software-day-23/">Software Day</a>)</span>
-        <ul>
-            <li><b>Reading</b>: Course notes</li>
-        </ul>
+        <span class="lecture"><b>No Class</b> (please attend <a href="https://neu-se.github.io/software-day-23/">Software Day</a>)</span>
     </td>
 </tr>
 
 <tr>
     <td>Fri. Sept 29</td>
     <td>
+      <span class="lecture">Discrete probabilistic programming I: Syntax & semantics</span>
+      <ul>
+         <li><a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-6/lecture-6.pdf">Lecture 6 notes</a></li>
+      </ul>
     </td>
+</tr>
+
+<tr>
+   <td>Tues Oct. 3</td>
+   <td>
+        <span class="lecture">Discrete probabilistic programming II: Compilation</span>
+        <ul>
+            <li><a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-7/lecture-7.pdf">Lecture 7 notes</a></li>
+        </ul>
+   </td>
+</tr>
+
+<tr>
+   <td>Fri Oct. 6</td>
+   <td>
+        <span class="lecture">Discrete probabilistic programming III: Observation</span>
+        <ul>
+         <li><a href="https://github.com/neuppl/CS7470-Notes/blob/main/lecture-8/lecture-8.pdf">Lecture 8 notes</a></li>
+        </ul>
+   </td>
 </tr>
 
 <tr>
@@ -139,9 +161,9 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
 </tr>
 
 <tr>
-   <td>Tues Oct. 3</td>
+   <td>Tues Oct. 10</td>
    <td>
-        <span class="lecture">Lecture: Introduction to Continuous Probability</span>
+        <span class="lecture">Discrete sampling semantics</span>
         <ul>
             <li><b>Reading</b>: Chapter 2 up to section 2.4 of {% cite barthe2020foundations %}</li>
             <li><b>General reference on continuous probability</b>: {% cite axler2020measure %} </li>
@@ -149,32 +171,10 @@ All graded material is turned in on <a href="https://canvas.northeastern.edu">Ca
    </td>
 </tr>
 
-
-<tr>
-   <td>Fir Oct. 6</td>
-   <td>
-        <span class="lecture">Lecture: Importance Sampling Semantics</span>
-        <ul>
-            <li><b>Reading</b>: Chapter 11 of {% cite pml2Book %} </li>
-            <li><b>Supplemental reading</b>: {% cite ramsey2002stochastic %}, Chapter 1 in {% cite barthe2020foundations %} </li>
-        </ul>
-   </td>
-</tr>
-
-<tr>
-   <td>Tues Oct. 10</td>
-   <td>
-        <span class="lecture">Markov-Chain Monte Carlo</span>
-        <ul>
-            <li><b>Reading</b>: Chapter 12 of {% cite pml2Book %} (note: this chapter is massive, focus on the earlier parts) </li>
-        </ul>
-   </td>
-</tr>
-
 <tr>
    <td>Fri Oct. 13</td>
    <td>
-        <span class="lecture">Slack day</span>
+        <span class="lecture">Importance sampling & continuous languages</span>
         <ul>
         </ul>
    </td>
